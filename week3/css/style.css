@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    background-color: beige;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+p,a,li,label{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+header{
+    height:125px;
+    background-color: azure;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header > div{
+    width: auto;
+    height: 125px;
+    float: left;
+    position: relative;
+    top: 5%;
+}
+header>div>a>img{
+    width: auto;
+    height: 100%;
+}
+header>nav{
+    float:right;
+    padding-top:35px;
+    position: relative;
+    top:10%;
+}
+header>nav>menu{
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+
+}
+header>nav>menu>li{
+    float: left;
+    padding:0px 10px;
+}
+body>header+section{
+    height:100vh;
+    background-color: #8338ec;
+}
+body>header+section>h1{
+    position: relative;
+    top: 30%;
+    text-align:center;
+    color:#f8f8f8 ;
+    font-size: 54px;
+}
+main{
+    width: 60%;
+    float: left;
+}
+main>section{
+    padding: 5%;
+}
+main>section>div{
+    width: 50%;
+    margin: auto;
+}
+main>section>div>form{
+    width:100% ;
+}
+main>section>div>input[type="text"],
+main>section>div>input[type="email"],
+main>section>div>input[type="password"],
+main>section>div>input[type="tel"],
+main>section>div>input[type="number"]{
+border:solid 2px #0e0e0e;
+    margin-bottom: 15px;
+    width:100%;
+    padding:10px 5px;
+}
+main>section>div>input[type="submit"]{
+   border: solid 2px #8338ec;
+    background-color: #8338ec;
+    color: #f8f8f8;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+aside{
+    width:40%;
+    float: right;
+}
+aside>article{
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+aside>article>img{
+    width: 100%;
+    margin-top: 25px;
+}
+footer{
+    width: 100%;
+    clear: both;
+}
+
